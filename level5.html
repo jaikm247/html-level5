@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 5</title>
+</head>
+<body bgcolor="pink">
+    <h2>Ordered list</h2>
+    <ol type="A">
+        <li>HTML</li>
+        <ol type="a">
+            <li>level a</li>
+            <li>level b</li>
+        </ol>
+        <li>CSS</li>
+        <li>Javascript</li>
+    </ol><hr>
+    <h2>Unordered list</h2>
+    <ul>
+        <li>Volleyball</li>
+        <li>Cricket</li>
+        <li>Badminton</li>
+    </ul>
+    <hr>
+    <h2>Table</h2>
+    <table border="1">
+        <caption><h3><b>Family details</b></h3></caption>
+        <tr><th>Name</th><th>Age</th><th>Email</th><th>Category</th></tr>
+        <tr><td>Jai Krishna Mishra</td><td>21</td><td>jaikrishnam2003@gmail.com</td><td rowspan="3">General</td></tr>
+        <tr><td>Raj Krishna Mishra</td><td>20</td><td>rajkrishna9531@gmail.com</td></tr>
+        <tr><td>Poonam Mishra</td><td>34</td><td>poonam11pm@gmail.com</td></tr>
+        <tr><td colspan="4">4 columns are merged here</td></tr>
+    </table><hr>
+    <form action="/action">
+        <label for="username">Name:</label><input type="text" placeholder="enter name" required id="username" name="username" value="Jai"><br>
+        <label for="password">Password:</label><input type="password" placeholder="enter password" name="password" id="password" ><br>
+        Date: <input type="date"><br>
+        File: <input type="file"><br>
+        Colour: <input type="color"><br>
+        Price range: <input type="range"><br>
+        Button: <input type="button" value="Click here"><br>
+        <label for="male">Male</label><input type="radio" id="male" name="gender" value="male"><label for="female">Female</label><input type="radio" id="female" name="gender" value="female"><label for="other">Others</label><input type="radio" id="other" name="gender" value="others"><br>
+        <label for="apple">Apple</label><input type="checkbox" id="apple" name="fruit" value="Apple"><label for="banana">Banana</label><input type="checkbox" id="banana" name="fruit" value="Banana"><label for="mango">Mango</label><input type="checkbox" id="mango" name="fruit" value="Mango"><br>
+        <label for="country">Choose country: </label><select name="country" id="country">
+            <option value="India">India</option>
+            <option value="Bhutan">Bhutan</option>
+            <option value="Bangladesh">Bangladesh</option>
+        </select><br>
+        <label for="story">Enter some text:</label><br><textarea name="story" id="story" cols="30" rows="10">Default story</textarea><br>
+        <input type="submit">
+    </form>
+    <iframe width="400" height="400" src="https://www.youtube.com/embed/XHhwWp11wFY?si=rXhXAAxU-JHJofjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
